@@ -9,6 +9,7 @@ class Message < ApplicationRecord
     self.image.attached?
   end
 
+  
 <<<<<<< HEAD
   validates :content, presence: true
 
